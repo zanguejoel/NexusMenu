@@ -5,11 +5,7 @@ var nexusModule = angular.module('nexusModule', [ 'ngRoute' ]);
 					templateUrl: 'templates/main.html',
 					controller: 'MainController'
 				})
-				.when('/search',{
-					templateUrl: 'templates/search.html',
-					controller: 'SearchController'
-				})
-				.when('/download',{
+				.when('/downloads',{
 					templateUrl: 'templates/download.html',
 					controller: 'DownloadController'
 				})
@@ -24,14 +20,6 @@ var nexusModule = angular.module('nexusModule', [ 'ngRoute' ]);
 				.when('/archives',{
 					templateUrl: 'templates/archives.html',
 					controller: 'ArchivesController'
-				})
-				.when('/images',{
-					templateUrl: 'templates/images.html',
-					controller: 'ImagesController'
-				})
-				.when('/videos',{
-					templateUrl: 'templates/videos.html',
-					controller: 'VideosController'
 				})
 				.otherwise({
               redirectTo: '/'
