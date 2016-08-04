@@ -7,7 +7,7 @@ var nexusModule = angular.module('nexusModule', [ 'ngRoute' ]);
 				})
 				.when('/downloads',{
 					templateUrl: 'templates/download.html',
-					controller: 'DownloadController'
+					controller: 'DownloadsController'
 				})
 				.when('/settings',{
 					templateUrl: 'templates/settings.html',
