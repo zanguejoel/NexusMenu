@@ -16,11 +16,14 @@ $scope.menuElements = [
 
 All partials are stored in templates/
 
-You can invoke botstrap js implicitly in index.html as
+You can invoke botstrap css using
 
-<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+ href="bower_components/bootstrap/dist/css/bootstrap.min.css" 
 
-You can invoke botstrap js implicitly in index.html as
+You can invoke botstrap js using
 
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+src="bower_components/jquery/dist/jquery.min.js"
+
+and 
+
+src="bower_components/bootstrap/dist/js/bootstrap.min.js"
