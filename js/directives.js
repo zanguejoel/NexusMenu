@@ -10,13 +10,9 @@ nexusModule.directive('graphviz',
 
           var vizGraph = "digraph G{ ";
           
-          /*angular.forEach(obj, function(process, index) {
-			 vizGraph + = process.source + "->" process.dest;
-			  alert("OK");
-		   });*/
-
+         
 		   
-			angular.forEach($scope.obj, function(value, key) { 
+			angular.forEach($scope.process.transitions, function(value, key) { 
 			if(key==0) 
 			  vizGraph  +=  value.source + " -> " + value.dest ;
 			else{
